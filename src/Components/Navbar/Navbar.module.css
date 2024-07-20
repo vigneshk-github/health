@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    height: 100px;
+}
+
+.nav2{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuicon{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .nav1{
+        font-size: 2vh;
+    }
+
+    .nav2{
+        display: none;
+    }
+
+    .menuicon{
+        display: block;
+        height: 7vh;
+        width: 7vw;
+
+    }
+}
