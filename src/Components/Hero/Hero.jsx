@@ -1,5 +1,5 @@
 import style from "./Hero.module.css"
-import img1 from '../../Image/img1.png'
+// import img1 from '../../Image/img1.png'
 
 export default function Hero(){
     return (
