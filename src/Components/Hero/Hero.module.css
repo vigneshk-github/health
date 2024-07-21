@@ -9,6 +9,7 @@
     object-fit: cover;
     width: 100%;
     flex-wrap: wrap;
+    filter: blur(3px);
 }
 
 .text {
@@ -19,6 +20,10 @@
     transform: translate(-50%, -50%);
     font-size: 2.5vw;
     font-weight: 800;
+}
+
+.text h1{
+    font-weight: 900;
 }
 
 .text p {
@@ -40,7 +45,7 @@
     border: 1px solid #e8e8e8;
     box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
     margin-right: 10px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .button2:active {
@@ -106,7 +111,7 @@
     }
 
     .text p{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
 
