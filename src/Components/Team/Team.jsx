@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Team.module.css";
-import pic1 from "../../Image/pic1.jpg"
-import pic2 from "../../Image/pic2.jpg"
+import pic1 from "../../Image/pic1.jpg";
+import pic2 from "../../Image/pic2.jpg";
 import pic3 from "../../Image/pic3.jpeg";
 import pic4 from "../../Image/pic4.jpg";
 import pic5 from "../../Image/pic5.jpg";
@@ -66,7 +66,7 @@ const Team = () => {
         {teamMembers.map((member, index) => (
           <div key={index} className={styles.card}>
             <div className={styles.imbBx}>
-              <img src={member.image} alt={member.name} />
+              <img alt="" src={member.image} alt={member.name} />
             </div>
             <div className={styles.content}>
               <div className={styles.contentBx}>
@@ -101,4 +101,3 @@ const Team = () => {
 };
 
 export default Team;
-

@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,42 +6,42 @@
     height: 100px;
 }
 
-.nav1 img{
+.nav1 img alt="" {
     width: 7vw;
     height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 
-.nav2{
+.nav2 {
     width: 20vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.menuicon{
+.menuicon {
     display: none;
 }
 
 @media (max-width:600px) {
-    .nav1{
+    .nav1 {
         font-size: 2vh;
     }
 
-    .nav2{
+    .nav2 {
         display: none;
     }
 
-    .menuicon{
+    .menuicon {
         display: block;
         height: 7vh;
         width: 7vw;
 
     }
 
-    .nav1 img{
+    .nav1 img alt="" {
         width: 15vw;
         height: 7vh;
     }

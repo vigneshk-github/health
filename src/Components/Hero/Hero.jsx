@@ -1,5 +1,5 @@
 import style from "./Hero.module.css";
-// import img1 from '../../Image/img1.png'
+// import img alt=""1 from '../../Image/img alt=""1.png'
 import video from "../../Image/vid.mp4";
 
 export default function Hero() {

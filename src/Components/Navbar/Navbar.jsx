@@ -5,7 +5,7 @@ export default function Navbar(){
     return (
       <nav className={style.navbar}>
         <div className={style.nav1}>
-          <h1><img src={img}/></h1>
+          <h1><img alt="" src={img}/></h1>
         </div>
         <div className={style.nav2}>
           <h4>Home</h4>
