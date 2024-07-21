@@ -66,7 +66,7 @@ const Team = () => {
         {teamMembers.map((member, index) => (
           <div key={index} className={styles.card}>
             <div className={styles.imbBx}>
-              <img alt="" src={member.image} alt={member.name} />
+              <img alt="" src={member.image}  />
             </div>
             <div className={styles.content}>
               <div className={styles.contentBx}>
