@@ -45,7 +45,7 @@ a {
 }
 
 
-.social img alt="" {
+.social img {
     width: 2vw;
     height: 4vh;
     padding-left: 20px;
@@ -132,7 +132,7 @@ hr {
         text-align: center;
     }
 
-    .social img alt="" {
+    .social img {
         width: 6vw;
         height: 6vh;
     }
