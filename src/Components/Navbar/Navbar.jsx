@@ -1,10 +1,11 @@
 import style from "./Navbar.module.css"
+import img from "../../Image/logo.png"
 
 export default function Navbar(){
     return (
       <nav className={style.navbar}>
         <div className={style.nav1}>
-          <h1>Logo</h1>
+          <h1><img src={img}/></h1>
         </div>
         <div className={style.nav2}>
           <h4>Home</h4>

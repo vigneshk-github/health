@@ -6,6 +6,14 @@
     height: 100px;
 }
 
+.nav1 img{
+    width: 7vw;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
 .nav2{
     width: 20vw;
     display: flex;
@@ -31,5 +39,10 @@
         height: 7vh;
         width: 7vw;
 
+    }
+
+    .nav1 img{
+        width: 15vw;
+        height: 7vh;
     }
 }
